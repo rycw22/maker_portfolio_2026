@@ -433,7 +433,6 @@ def main():
     for nid in best_route:
         print("  -", env.nodes[nid].name)
 
-    # 👇 ADD THIS
     plot_route_on_field(env, best_route)
 
 if __name__ == "__main__":

@@ -167,7 +167,7 @@ def optimize_with_dijkstra(env: Env) -> Tuple[List[int], int, float]:
             parent[nxt_state] = (cur_state, via_node)
             heapq.heappush(pq, (-nxt_points, nxt_dist, nxt_state))
 
-    # HARD SAFETY STOP so it can't run forever (tune this)
+    # HARD SAFETY STOP so it can't run forever
     EXPANSION_LIMIT = 500_000
     expansions = 0
 
@@ -297,7 +297,6 @@ def main():
     for nid in route:
         print("  -", env.nodes[nid].name)
 
-    # 👇 Plot overlay
     plot_route_on_field(env, route, image_path="field.png", title="Dijkstra Route Overlay")
 
 if __name__ == "__main__":

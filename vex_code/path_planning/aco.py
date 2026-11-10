@@ -87,7 +87,7 @@ class ACO:
         beta: float = 3.0,    # heuristic influence
         rho: float = 0.15,    # evaporation rate
         q: float = 1.0,       # pheromone deposit scaling
-        lam: float = 0.35,    # distance penalty in fitness
+        lam: float = 0.05,    # distance penalty in fitness
         max_steps: int = 60,
         seed: int = 7
     ):

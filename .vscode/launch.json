@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ryancw/Desktop/maker_portfolio/maker_portfolio_2026/vex_code/path_optimization",
+      "program": "/Users/ryancw/Desktop/maker_portfolio/maker_portfolio_2026/vex_code/path_optimization/build/Debug/outDebug"
+    }
+  ]
+}
